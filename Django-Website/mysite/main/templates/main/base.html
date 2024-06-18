@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence (AI) in Agriculture </title>
+    
+    {% load static %}
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="" class="active">Home</a>
+            <a href="">About</a>
+            <a href="">Portfolio</a>
+            <a href="">Services</a>
+            <a href="{% url 'contact' %}">Contact</a>
+        </nav>
+    </header>
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item" style="background-image: url('{% static 'image/drone.jpg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">DRONE</div>
+                    <div class="des">Drone spraying fertilizer on vegetable green plants Agriculture technology Farm automation, improving productivity.</div>               
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/woman.jpg' %}');">
+                <div class="content">
+                    <div class="title">PLANT</div>
+                    <div class="name">MONITORING</div>
+                    <div class="des">By utilizing various apps and smartphone capabilities, such as high-resolution cameras and GPS, users can track the development of their plants in real-time. </div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/bee.jpg' %}');">
+                <div class="content">
+                    <div class="title">SMART</div>
+                    <div class="name">BEE_HEVIE</div>
+                    <div class="des">By integrating advanced sensors, data analytics, and automated systems, SMART BEE HEVIE aims to monitor hive health, optimize honey production, and ensure the well-being of bee populations.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/metal.jpg' %}');">
+                <div class="content">
+                    <div class="title">GREEN</div>
+                    <div class="name">HOUSE</div>
+                    <div class="des">This controlled environment enables farmers and gardeners to extend the growing season, protect plants from adverse weather conditions, and create optimal conditions for plant growth.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/crop.png' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">OWL</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/rabbit.jpg' %}');">
+                <div class="content">
+                    <div class="title">RABBIT</div>
+                    <div class="name">KEEPING</div>
+                    <div class="des">By leveraging AI in rabbit keeping, farmers can potentially increase productivity, improve animal welfare, and achieve more sustainable farming practices.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="item" style="background-image: url('{% static 'image/kingfisher2.jpeg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">KINGFISHER</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/parrot2.jpg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">PARROT</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/heron.jpeg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">HERON</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/butterfly2.jpg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">BUTTERFLY</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('{% static 'image/parrot2.jpg' %}');">
+                <div class="content">
+                    <div class="title">SLIDER</div>
+                    <div class="name">PARROT</div>
+                    <div class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae.</div>
+                    <div class="btn">
+                        <button>See More</button>
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- next prev button -->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+    </div>
+
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
